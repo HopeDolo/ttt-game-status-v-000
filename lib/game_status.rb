@@ -82,7 +82,7 @@ def winner(board)
 
   board.all? do |token|
     if token.eql?(" ")
-      false
+      nil
     end
   end
 end
