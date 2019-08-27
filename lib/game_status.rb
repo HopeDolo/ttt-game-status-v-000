@@ -78,9 +78,9 @@ def winner(board)
     if position_1 == "O" && position_2 == "O" && position_3 == "O"
       return "O"
     end
-    if !won(board)
+    if !won?(board)
       nil
-    end 
+    end
   end
 
   board.all? do |token|
